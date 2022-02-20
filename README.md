@@ -6,7 +6,7 @@ Module-2 Embedded
 
 
 ## Block Diagram
-
+![ ](Untitled.png)Untitled.png
 
 ##   Components:
 
