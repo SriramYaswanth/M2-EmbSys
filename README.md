@@ -18,10 +18,10 @@ Module-2 Embedded
 | ID|Description|
 |---|-----------|
 |HLR-1|         |
-|HLR-2|  |
+|HLR-2| PowerSource |
 *  Low Level Requirements:
 
 | ID|Description|
 |---|-----------|
-|LLR-1|    |
+|LLR-1| Battery Backup   |
 |LLR-2|  |
