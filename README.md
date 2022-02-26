@@ -1,1 +1,1 @@
-# Vehicle Seat Heat Generatot & Monitoring System
+# Vehicle Seat Heat Generator & Monitoring System
