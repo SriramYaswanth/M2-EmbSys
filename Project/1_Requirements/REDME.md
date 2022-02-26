@@ -1,4 +1,4 @@
-# Vehicle Seat Heat Monitoring System
+# Vehicle Seat Heat Generatot & Monitoring System
 ****
 # Abstract
 - As now-a-days we are looking for the automation and advancement in all the sectors, In cars also we are getting new features as of growing technology in that verichle seat heat Monetring system is one as per our comforts.
@@ -7,50 +7,63 @@
 - In our project we have used ATmega328 microcontroller along with temperature sensor, Push button, Heat generator, LED and LCD diplay,etc.
 
 
+# Requirements
+1. ATMEGA 328 
+- It iscommonly used in many projects and autonomous systems where a simple, low-powered, low-cost micro-controller is needed
+2. Temperature Sensors.
+- It is a device used to measure temperature.
+3. Heat generator
+4. Thermostat. 
+- used for electric current to a heating or cooling.
+5. LCD 
+- Liquid Crystal Display used to display Temperature- Generated heat.
+6. LED 
+- Light Emitting Diode used as indicator.
+
+
 # SWOT ANALYSIS
 ## Strengths
-- Designed User Friendly
-- Easy to change the temperature inside the vehicles.
-- Low cost and Robust system.
-
+1. It has Designed User Friendly
+2. It is easy to change the temperature inside the vehicles.
+3. Low cost and Robust system.
 ## Weakness
-- Its only applicable for those countries which are having low temperature.
+1. Its only used for the countries those  which are having low temperature/ collest places.
+2. Low sensitivity.
 ## Opportunities
-- It can be implemented by having both Heater and AC.
+1. It can be implemented by having both Heater and AC.
+2.  It require short time and less expense to implement and it will consume less energy.
 ## Threats
-- Not suitable for average or high temperature places.
+1. It is not suitable for average or high temperature places ,it used only in coll temperature places.
+2. High electric resistance can make it to get over heated.
 
-## 4W's and 1'H
-### **WHAT** : STEPin_Seat_Temperature_Monitoring_System
-### **WHERE** : Used in Automotive Industries
-### **WHEN** : At low Temperature
+# 4W's and 1'H
+### WHAT 
+Vehicle Seat Heat Monitoring System, these heated seats can make us more comfortable in the winter or low temperature areas/places.
+### WHEN
+It can be used at low Temperature areas/places(coolest places),It is used in Vehicled, Mainly used in Cars
+### WHERE 
+Used in the Vehicle seats and Automobile indistries.
+### WHY
+Vehicle Seat Heat Monitoring System these Heating system in our vehicle is designed to keep us warm, mainly in very cool Temperatures and we can feel more comfortable.
+### HOW
+It can be modfied by changing the temperature we can feel comfort at any temperatur or coolest climatic conditions.
 
-## Detail requirements
-### High Level Requirements
-| High Level Requirements      | Description |
+# HIGH LEVEL AND LOW LEVEL REQUIREMENTS
+## High Level Requirements(HLR)
+|ID| Description |
+| -- |--- |
+| HLR_1 | Microcontroller   |
+| HLR2_2  | Temperature Sensor used to measure Themprature (LM355)|
+| HLR_3  | Heat Generator to get Seat heated|
+| HLR_4  | Display Generated heat should be displayed on LCD|
+| HLR_5   | Need Software|
+
+## Low Level Requirements(LLR)
+| ID      | Description |
 | ----------- | ----------- |
-| HLR1      | Microcontroller   |
-| HLR2   | Temperature Sensor|
-| HLR3   | Heat Generation|
-| HLR4   | Display|
-| HLR5   | Software used|
-
-### Low Level Requirements
-| Low Level Requirements      | Description |
-| ----------- | ----------- |
-| HLR1_LLR1      | ATmega328     |
-| HLR2_LLR1   | LM35 and ADC|
-| HLR2_LLR2   | ADC with PWM-fast|
-| HLR3_LLR1   | Thermoelectric module|
-| HLR4_LLR1   |LCD and LED|
-| HLR5_LLR1   | Code Blocks with AVR GCC compiler |
-| HLR5_LLR2   | SimulIDE |
-
-## Features
-- The System will sense is driver or passenger seated or not.
-- Driver or Passenger has the access to modify the temperature in the vehicle.
-- As per Drivers request, Heater will generate the heat accordingly.
-- It is best for European Countries.
-- Low cost and robust system.
-- Modular Approach.
+| LLR_1 | The digitized temperature input is visualized using Pulse Width Modulation|
+| LLR_2 |Need LCD(Liquid Crystal display) and LED ( Light Emitting diode) |
+| LLR_3   | Need AVR GCC compiler and SimulIDE |
+| LLR_4|  As per Drivers request, Heater will generate the heat accordingly|
+|LLR_5|Thermoelectric module used t for both heating and cooling|
 
