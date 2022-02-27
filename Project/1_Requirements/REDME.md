@@ -7,7 +7,7 @@
 - In our project we have used ATmega328 microcontroller along with temperature sensor, Push button, Heat generator, LED and LCD diplay,etc.
 
 
-# Requirements
+# Requirements.
 1. ATMEGA 328 
 - It iscommonly used in many projects and autonomous systems where a simple, low-powered, low-cost micro-controller is needed
 2. Temperature Sensors.
