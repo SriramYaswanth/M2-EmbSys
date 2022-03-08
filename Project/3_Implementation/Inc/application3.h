@@ -28,4 +28,4 @@ void TimerWaveGenerationMode(void);
 
 int outputfromPWM(uint16_t ADC_val);
 
-#endif
+#endif  /*Seat heat*/
