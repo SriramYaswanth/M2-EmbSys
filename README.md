@@ -3,6 +3,7 @@
 [![Static_check](https://github.com/SriramYaswanth/M2-EmbSys/actions/workflows/build.yml/badge.svg)](https://github.com/SriramYaswanth/M2-EmbSys/actions/workflows/build.yml)
 
 [![Static_check](https://github.com/SriramYaswanth/M2-EmbSys/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/SriramYaswanth/M2-EmbSys/actions/workflows/cppcheck.yml)
+
 # Table structure
 
 ## Case Studt
